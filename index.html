@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pixel Art</title>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <h1>PixelPanel</h1>
+
+            <div class="header-controls">
+                <label class="control-group">
+                    <span class="option-title">Tamanho:</span>
+                    <input type="number" class="input-size" min="4" value="10">
+                </label>
+
+                <label class="control-group">
+                    <span class="option-title">Cor:</span>
+                    <input type="color" class="input-color">
+                </label>
+
+                <div class="control-group">
+                    <span class="option-title">Cores usadas:</span>
+                    <section class="used-colors"></section>
+                </div>
+
+                <button class="button-save">Baixar imagem</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <aside class="reference-panel left">
+            <span class="option-title" >Referência</span>
+            <label class="reference-upload">
+                <input type="file" class="reference-input" accept="image/*">
+                <span>Adicionar imagem</span>
+            </label>
+            <div class="reference-preview">
+                <img alt="Imagem de referência esquerda">
+            </div>
+        </aside>
+
+        <section class="canvas-wrap">
+            <section class="canvas"></section>
+        </section>
+
+        <aside class="reference-panel right">
+            <span class="option-title">Referência</span>
+            <label class="reference-upload">
+                <input type="file" class="reference-input" accept="image/*">
+                <span>Adicionar imagem</span>
+            </label>
+            <div class="reference-preview">
+                <img alt="Imagem de referência direita">
+            </div>
+        </aside>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
