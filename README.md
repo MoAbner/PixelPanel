@@ -23,7 +23,7 @@ Este projeto foi desenvolvido com foco em:
 - Experiência do usuário (UX)
 
 ## 📸 Demonstração
-> Você pode adicionar aqui um GIF ou screenshot do projeto rodando.
+(https://moabner.github.io/PixelPanel/)
 
 ## 📂 Como Executar
 1. Clone o repositório:
