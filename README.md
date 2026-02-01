@@ -16,16 +16,18 @@ Um projeto interativo que exibe uma **grade de pixels** onde o usuário pode pin
 
 ## 🎯 Objetivo do Projeto
 Este projeto foi desenvolvido com foco em:
-- Manipulação do DOM
 - Eventos de mouse
 - Lógica de renderização em grid
 - Geração e exportação de imagens
 - Experiência do usuário (UX)
 
 ## 📸 Demonstração
-(https://moabner.github.io/PixelPanel/)
+https://moabner.github.io/PixelPanel/
 
 ## 📂 Como Executar
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
+
+## Referências
+Este projeto foi realizado a fim de estudos e foi baseado no vídeo do Manual do Dev: https://www.youtube.com/watch?v=6SPjWT0CT9A
