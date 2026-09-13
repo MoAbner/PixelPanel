@@ -1,33 +1,30 @@
+**English** | [Português](README.pt-BR.md)
+
 # Pixel Panel
 
-Um projeto interativo que exibe uma **grade de pixels** onde o usuário pode pintar livremente e **baixar a arte criada**. A ideia é simular um editor simples de pixel art direto no navegador, de forma intuitiva e divertida.
+A small pixel-art editor built with HTML, CSS and JavaScript. Paint a grid in your browser, choose colors and download your artwork as an image.
 
-## Funcionalidades
-- Grade de pixels clicável para pintura
-- Escolha de cores
-- Interface simples e intuitiva
-- Download da arte final em imagem
-- Ideal para criar pixel arts rápidas
+[Try the editor](https://moabner.github.io/PixelPanel/)
 
-## Tecnologias Utilizadas
-- HTML
-- CSS
-- JavaScript
+## Features
 
-## Objetivo do Projeto
-Este projeto foi desenvolvido com foco em:
-- Eventos de mouse
-- Lógica de renderização em grid
-- Geração e exportação de imagens
-- Experiência do usuário (UX)
+- Clickable pixel grid and color selection.
+- Image export directly from the browser.
+- A focused interface for quick experiments with pixel art.
 
-## Demonstração
-https://moabner.github.io/PixelPanel/
+## Run locally
 
-## Como Executar
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+```bash
+git clone https://github.com/MoAbner/PixelPanel.git
+cd PixelPanel
+```
 
-## Referências
-Este projeto foi realizado a fim de estudos e foi baseado no vídeo do Manual do Dev: https://www.youtube.com/watch?v=6SPjWT0CT9A
+Open `index.html` in your browser. The project uses plain HTML, CSS and JavaScript; there is no package installation step.
+
+## What I explored
+
+Mouse events, grid rendering, DOM interactions, image generation and user experience.
+
+## Credits
+
+This study project was based on [Manual do Dev's tutorial](https://www.youtube.com/watch?v=6SPjWT0CT9A).
